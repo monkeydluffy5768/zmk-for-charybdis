@@ -3,6 +3,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
+&led_strip {
+    chain-length = <6>;
+};
+
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
