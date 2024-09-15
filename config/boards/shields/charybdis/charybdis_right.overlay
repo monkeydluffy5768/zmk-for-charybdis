@@ -14,9 +14,7 @@
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
-            psels = <NRF_PSEL(SPIM_MOSI, 0, 22)>;
-        };
-    };
+            psels = <NRF_PSEL(SPIM_MOSI, 0, 22)>; }; };
 
     spi3_sleep: spi3_sleep {
         group1 {
